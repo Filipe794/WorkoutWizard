@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkoutWizard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>WorkoutWizard</h1>
+        <div id="division-section">
+            <h2>Divisões de Treino</h2>
+            <ul id="division-list">
+                <!-- Divisões de treino serão adicionadas aqui -->
+            </ul>
+            <button id="new-division-button" class="button">Nova Divisão</button> <!-- Corrigido: movido para a seção de divisões -->
+        </div>
+        
+        <div id="days-section" class="hidden">
+            <h2 id="division-title"></h2>
+            <ul id="day-list">
+                <!-- Dias de treino serão adicionados aqui -->
+            </ul>
+            <button id="new-day-button" class="button">Novo Dia</button>
+            <button id="back-button" class="button secondary">Voltar</button> <!-- Adicionado: botão de voltar -->
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
