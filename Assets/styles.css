@@ -1,111 +1,60 @@
-/* Define as configurações básicas para o corpo do documento */
-body {
-    font-family: Arial, sans-serif; /* Define a família de fontes para o corpo do documento */
-    background-color: #121212; /* Define a cor de fundo */
-    color: #ffffff; /* Define a cor do texto */
-    display: flex; /* Define o display como flexível para alinhar elementos verticalmente */
-    flex-direction: column; /* Define a direção dos elementos como coluna */
-    align-items: center; /* Alinha os elementos ao centro horizontalmente */
-    margin: 0; /* Remove as margens padrão do corpo */
-    padding: 20px; /* Adiciona um preenchimento interno ao corpo */
+.workout-button {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px auto;
+}
+.user-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.user-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
-/* Define estilos para o contêiner principal */
+a:link, a:visited {
+	text-decoration: none;
+    color: black
+	}
+a:hover {
+	text-decoration: none;
+	color: #f00
+	}
+a:active {
+	text-decoration: none;
+	}
+
+.avatar {
+    border-radius: 50%;
+    max-height: 50px;
+    border: 2px solid gold;
+}
+
+.user-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 24px;
+    color: purple;
+}
 .container {
-    width: 100%; /* Define a largura máxima do contêiner como 100% */
-    max-width: 600px; /* Define a largura máxima do contêiner */
-    text-align: center; /* Alinha o texto dentro do contêiner ao centro */
-}
-
-/* Define estilos para os títulos h1 e h2 */
-h1,
-h2 {
-    color: #fdd835; /* Define a cor dos títulos */
-}
-
-/* Define estilos para os botões */
-button {
-    display: inline-block; /* Define o botão como um elemento em linha com bloco */
-    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
-    border: 2px solid #f5d107; /* Define uma borda sólida para o botão */
-    border-radius: 5px; /* Adiciona cantos arredondados ao botão */
-    background-color: transparent; /* Define o fundo do botão como transparente */
-    color: #333; /* Define a cor do texto do botão */
-    text-decoration: none; /* Remove a decoração de texto padrão */
-    transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave */
-}
-
-/* Define estilos para o estado hover dos botões */
-button:hover {
-    background-color: #333; /* Define a cor de fundo ao passar o mouse sobre o botão */
-    color: #fff; /* Define a cor do texto ao passar o mouse sobre o botão */
-}
-
-#new-division-button {
-    color: #fdd835; /* Define a cor do texto para amarelo */
-}
-
-/* Define estilos para listas não ordenadas */
-ul {
-    list-style: none; /* Remove os marcadores de lista padrão */
-    padding: 0; /* Remove o preenchimento padrão */
-    width: 100%; /* Define a largura máxima como 100% */
-}
-
-/* Define estilos para itens de lista */
-li {
-    background: #1e1e1e; /* Define a cor de fundo dos itens da lista */
-    margin-bottom: 10px; /* Adiciona margem inferior */
-    padding: 10px; /* Adiciona preenchimento interno */
-    display: flex; /* Define o display como flexível para os itens da lista */
-    justify-content: space-between; /* Alinha os itens da lista ao espaço entre eles */
-    align-items: center; /* Alinha os itens da lista verticalmente ao centro */
-    border: 1px solid #fdd835; /* Adiciona uma borda sólida */
-}
-
-/* Define estilos para os títulos h2 dentro dos itens da lista */
-li h2 {
-    margin: 0; /* Remove as margens padrão */
-    color: #fdd835; /* Define a cor do texto */
-    flex: 1; /* Ocupa o espaço restante */
-}
-
-/* Define estilos para o contêiner dos botões dentro dos itens da lista */
-li .button-container {
-    display: flex; /* Define o display como flexível para os botões */
-    gap: 10px; /* Define o espaçamento entre os botões */
-}
-
-/* Define estilos para os botões dentro dos itens da lista */
-li button {
-    background: none; /* Remove o fundo */
-    border: none; /* Remove a borda */
-    color: #fdd835; /* Define a cor do texto */
-    cursor: pointer; /* Altera o cursor ao passar o mouse */
-}
-
-/* Define estilos para elementos ocultos */
-.hidden {
-    display: none; /* Oculta os elementos */
-}
-
-/* Define estilos para o contêiner de dias */
-#days-container {
-    width: 100%; /* Define a largura máxima como 100% */
-    display: flex; /* Define o display como flexível */
-    flex-direction: column; /* Define a direção dos elementos como coluna */
-    align-items: center; /* Alinha os elementos ao centro horizontalmente */
-}
-
-/* Define estilos para itens de lista dentro do contêiner de dias */
-#day-list li {
-    display: flex; /* Define o display como flexível */
-    flex-direction: column; /* Define a direção dos elementos como coluna */
-    align-items: flex-start; /* Alinha os itens ao início horizontalmente */
-}
-
-/* Define estilos para os spans dentro dos itens de lista de dias */
-#day-list li span {
-    color: #fdd835; /* Define a cor do texto */
-    margin-bottom: 5px; /* Adiciona margem inferior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
