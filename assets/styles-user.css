@@ -1,0 +1,25 @@
+a:link, a:visited {
+	text-decoration: none;
+    color: black
+	}
+a:hover {
+	text-decoration: none;
+	color: #f00
+	}
+a:active {
+	text-decoration: none;
+	}
+
+.avatar {
+    border-radius: 50%;
+    max-height: 50px;
+    border: 2px solid gold;
+}
+
+.user-icon {
+    margin-right: 15px;
+}
+
+.container {
+    padding-top: 30px;
+}
